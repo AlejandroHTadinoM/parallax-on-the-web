@@ -1,0 +1,64 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0; }
+
+h1 {
+  color: #ccc;
+  weight: 300; }
+
+figure {
+  margin: auto; }
+
+.content {
+  position: relative;
+  background: white;
+  margin-bottom: 400px;
+  overflow: hidden; }
+  .content article {
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center; }
+
+img {
+  max-width: 100%; }
+
+.bird-box {
+  position: relative;
+  height: 600px;
+  background-image: url(/img/bird-bg.jpg);
+  background-size: auto 600px;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+.logo {
+  height: 100px;
+  width: 100%;
+  background-image: url(/img/black-bird-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; }
+
+.fore-bird {
+  position: absolute;
+  width: 960px;
+  height: 733px;
+  background-image: url(/img/fore-bird.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  left: 50%;
+  margin-left: -480px;
+  top: 380px; }
+
+.back-bird {
+  width: 960px;
+  height: 298px;
+  background-image: url(/img/back-bird.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px; }
