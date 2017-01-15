@@ -70,3 +70,18 @@ img
 	position: absolute
 	left: 50%
 	margin-left: -480px
+
+	// Model grid
+
+.clothes-pics
+
+	figure
+		margin-bottom: 20px
+		position: relative
+		opacity: 0
+		transform: translateX(-20px)
+		transition: all .3s ease-in-out
+
+		&.is-showing
+			opacity: 1
+			transform: translateX(0px)
