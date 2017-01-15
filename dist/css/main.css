@@ -72,3 +72,12 @@ img {
   .clothes-pics figure.is-showing {
     opacity: 1;
     transform: translateX(0px); }
+
+.large-window {
+  height: 640px;
+  background-image: url(/img/model1.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 100px;
+  border-radius: 50%; }
